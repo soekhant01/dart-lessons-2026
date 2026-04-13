@@ -9,9 +9,8 @@ void main() {
   show();
 }
 
-int addNumber({required int num1, required int num2}) {
-  return num1 + num2;
-}
+// short hand, arrow function, it can use when your code has just one line
+int addNumber({required int num1, required int num2}) => num1 + num2;
 
 void display() {
   print("Show me!");
