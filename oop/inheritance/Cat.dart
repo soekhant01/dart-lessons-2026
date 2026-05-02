@@ -1,4 +1,4 @@
-import 'Animal.dart';
+import '../Animal.dart';
 
 class Cat extends Animal {
   void canCatchMouse() {

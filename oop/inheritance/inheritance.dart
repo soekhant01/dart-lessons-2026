@@ -1,4 +1,4 @@
-import 'Animal.dart';
+import '../Animal.dart';
 import 'Cat.dart';
 
 void main() {
