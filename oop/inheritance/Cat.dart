@@ -5,8 +5,16 @@ class Cat extends Animal {
     print("Catch MOuse");
   }
 
-  @override
-  String name = "Shwe war";
+  final String name;
+
+  // two way of super constructor calling
+
+  // Cat(super.name); way, number 1 to call super constructor
+
+  // if you use this way, we don't need to pass argument when object instantiation
+  Cat(this.name) : super("Animal") {
+    print("Child (cat) constructor is calling");
+  } // way, number 2 to call super constructor.
 
   @override
   void eat(String animal) {
